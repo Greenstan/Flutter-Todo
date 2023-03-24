@@ -5,6 +5,7 @@ class Task {
   final String area;
   bool isDone;
 
+  //Constructor
   Task(
     this.name,
     this.area,

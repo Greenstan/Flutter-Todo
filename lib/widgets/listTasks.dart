@@ -6,6 +6,7 @@ class ListTasks extends StatefulWidget {
 
   final List<Task> doneTasks;
 
+  //  Parametrized constructor
   ListTasks(this.doneTasks, this.notTasks, {Key key}) : super(key: key);
 
   @override
